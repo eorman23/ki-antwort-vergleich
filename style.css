@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+input {
+  width: 60%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 12px;
+}
+
+.antworten {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.antworten > div {
+  width: 30%;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+#vergleich {
+  margin-top: 30px;
+  font-weight: bold;
+  background-color: #fff3cd;
+  padding: 10px;
+}
