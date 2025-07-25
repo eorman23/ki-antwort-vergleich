@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>KI Antwort Vergleich</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🔍 KI Antwort Vergleich (ChatGPT, Gemini, DeepSeek)</h1>
+  <input type="text" id="frageInput" placeholder="Frage eingeben..." />
+  <button onclick="frageStellen()">Frage senden</button>
+
+  <div class="antworten">
+    <div><h2>ChatGPT</h2><pre id="chatgptOutput"></pre></div>
+    <div><h2>Gemini</h2><pre id="geminiOutput"></pre></div>
+    <div><h2>DeepSeek</h2><pre id="deepseekOutput"></pre></div>
+  </div>
+
+  <div id="vergleich"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
